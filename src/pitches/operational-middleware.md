@@ -15,7 +15,7 @@ date: 2025-01-08
 
 <section class="platform-showcase">
 <div class="platform-image-wrapper">
-<img src="/images/screenshot1.png" alt="Interloom platform screenshot">
+<img src="{{ '/images/screenshot1.png' | url }}" alt="Interloom platform screenshot">
 </div>
 </section>
 
@@ -78,7 +78,7 @@ Your ERP doesn't talk to your ticketing system. Data lives in silos. Every workf
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-1.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-1.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 
@@ -93,7 +93,7 @@ Interloom sits between your systems, connecting data and workflows without repla
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-2.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-2.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 
@@ -108,7 +108,7 @@ New tools plug into Interloom. Retire old systems without disrupting operations.
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-3.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-3.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 

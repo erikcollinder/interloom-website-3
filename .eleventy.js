@@ -47,6 +47,7 @@ module.exports = function(eleventyConfig) {
       data: "_data"
     },
     markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk"
+    htmlTemplateEngine: "njk",
+    pathPrefix: "/interloom-website-3/"
   };
 };

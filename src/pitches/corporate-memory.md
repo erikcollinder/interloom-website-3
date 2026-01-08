@@ -15,7 +15,7 @@ date: 2025-01-08
 
 <section class="platform-showcase">
 <div class="platform-image-wrapper">
-<img src="/images/screenshot1.png" alt="Interloom platform screenshot">
+<img src="{{ '/images/screenshot1.png' | url }}" alt="Interloom platform screenshot">
 </div>
 </section>
 
@@ -78,7 +78,7 @@ When your best consultants leave, their knowledge goes with them. Every new proj
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-1.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-1.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 
@@ -93,7 +93,7 @@ Interloom captures decisions, outcomes, and the reasoning behind them. Future ca
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-2.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-2.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 
@@ -108,7 +108,7 @@ Each resolved case strengthens your memory layer. New team members start with ye
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-3.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-3.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 

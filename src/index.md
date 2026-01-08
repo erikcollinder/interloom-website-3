@@ -15,7 +15,7 @@ title: Home
 
 <section class="platform-showcase">
 <div class="platform-image-wrapper">
-<img src="/images/screenshot1.png" alt="Interloom platform screenshot">
+<img src="{{ '/images/screenshot1.png' | url }}" alt="Interloom platform screenshot">
 </div>
 </section>
 
@@ -78,7 +78,7 @@ Most automation tools force you into rigid workflows designed for someone else's
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-1.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-1.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 
@@ -93,7 +93,7 @@ We start by understanding how your team actually works — the workarounds, the 
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-2.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-2.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 
@@ -108,7 +108,7 @@ Your business changes. Your automation should too. We monitor, optimize, and evo
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-3.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-3.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 

@@ -15,7 +15,7 @@ date: 2025-01-08
 
 <section class="platform-showcase">
 <div class="platform-image-wrapper">
-<img src="/images/screenshot1.png" alt="Interloom platform screenshot">
+<img src="{{ '/images/screenshot1.png' | url }}" alt="Interloom platform screenshot">
 </div>
 </section>
 
@@ -78,7 +78,7 @@ Claims teams know what good resolutions look like, but can't build the systems t
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-1.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-1.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 
@@ -93,7 +93,7 @@ Connect your claims data, show Interloom your best decisions, and build workflow
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-2.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-2.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 
@@ -108,7 +108,7 @@ As your team resolves claims, Interloom learns patterns. What started as a workf
 
 </div>
 <div class="story-visual">
-<img src="/images/screenshot-square-3.png" alt="Platform screenshot">
+<img src="{{ '/images/screenshot-square-3.png' | url }}" alt="Platform screenshot">
 </div>
 </div>
 

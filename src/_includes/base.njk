@@ -9,18 +9,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body>
   <header>
     <div class="header-grid">
       <div class="gutter gutter-left"></div>
       <nav>
-        <a href="/" class="logo"><img src="/images/InterloomSymbol.svg" alt="" class="logo-icon">Interloom</a>
+        <a href="{{ '/' | url }}" class="logo"><img src="{{ '/images/InterloomSymbol.svg' | url }}" alt="" class="logo-icon">Interloom</a>
         <div class="nav-links">
-          <a href="/pitches/">Pitches</a>
-          <a href="/blog/">Blog</a>
-          <a href="/releases/">Release Notes</a>
+          <a href="{{ '/pitches/' | url }}">Pitches</a>
+          <a href="{{ '/blog/' | url }}">Blog</a>
+          <a href="{{ '/releases/' | url }}">Release Notes</a>
           <a href="#contact" class="cta-link">Get in Touch</a>
         </div>
       </nav>
