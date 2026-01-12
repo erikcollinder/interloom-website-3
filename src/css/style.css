@@ -58,7 +58,6 @@ body {
 
 /* Navigation */
 header {
-  padding: 0.75rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
@@ -71,13 +70,14 @@ header {
   --pattern-fg: rgba(0, 0, 0, 0.05);
   display: grid;
   grid-template-columns: var(--gutter-width) 1fr var(--gutter-width);
+  align-items: stretch;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0.75rem 1rem;
 }
 
 .logo {
