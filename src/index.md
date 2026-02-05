@@ -1,137 +1,59 @@
 ---
 layout: base.njk
-title: Home
+title: The AI-Native Back Office
 ---
 
 <section class="hero">
 
-# Your back-office runs on email, spreadsheets, and tribal knowledge. Interloom fixes that.
+# The AI Native Back Office
+<p class="subtitle">Orchestration for Complex Domains</p>
 
-<p class="subtitle">Custom-built automation that fits how you actually work — not how software thinks you should.</p>
+Deploy production AI workflows in natural language — designed by the people who know the work, powered by a context layer that learns as it runs.
 
-<a href="#contact" class="btn">Get a workflow assessment</a>
+<a href="#contact" class="btn">Book a demo</a> <a href="#contact" class="btn">Join Waitlist</a>
 
 </section>
 
-<section class="platform-showcase">
-<div class="platform-image-wrapper">
+Software may have eaten parts of the world, but in the industries that keep it running — insurance, logistics, real estate management, construction, manufacturing — digitalisation remains superficial. The raw capability of AI is soaring, yet it's almost nowhere to be found in production workflows.
+
+**The core issue is a lack of unified context.** Over 70% of knowledge work happens in departmental silos, scattered across tools, documents, emails, and meetings. Tasks get done, but knowledge is lost — undocumented, unstructured, impossible to re-use. In a world with only human expertise this slows you down. **In a world with abundant artificial intelligence it's a critical point of failure.**
+
+---
+
+> "It's about bringing our knowledge and expertise together with data and information to make sure we can take the best risk based decision. **Interloom's solution didn't just meet the challenge, it helped us think through, more strongly, the art of the possible.**"
+
+— Penny Seach, Group Chief Underwriting Officer, Zurich Insurance Group
+
+---
+
+# Workflows That Learn
+
+**Workflows**
+Workflows are authored in natural language — with code where needed — and execute complex, multi-step processes. Each workflow can combine LLM-based steps (extraction, classification, summarisation) with deterministic ones (validation, formatting, lookups), using each where it's strongest.
+
+**Context Layer**
+The Context Layer is a corporate knowledge base, structured as human-readable articles similar to a wiki. It provides grounding context to every workflow at execution time. It's built incrementally as workflows process cases, or imported from existing sources — and it's fully portable, never locked in proprietary representations.
+
 <img src="{{ '/images/screenshot1.png' | url }}" alt="Interloom platform screenshot">
-</div>
-</section>
 
-<section class="testimonials">
+*Design workflows that read from and write back to your organisation's knowledge layer. Every case processed makes the next one smarter.*
 
-## What our clients say
+**Simplicity** Traditional workflow tools force you to think like an engineer — mapping every branch, coding every integration, maintaining every edge case. Interloom flips this. You describe your process in natural language: what comes in, what should happen, when to escalate, what good looks like. The system handles the execution logic.
 
-<div class="testimonial-grid">
+**Learning** As each case is worked, Interloom detects patterns, remembers outcomes, and builds a memory layer that grounds future decisions in the best precedent. Your operations get sharper over time — not because the system rewrites itself, but because it accumulates context.
 
-<div class="testimonial">
-<div class="testimonial-portrait"></div>
-<blockquote>"Interloom understood our workflows better than we did. They built something that actually works the way our team thinks."</blockquote>
-<div class="testimonial-author">
-<span class="name">Sarah Chen</span>
-<span class="title">Head of Operations, VW Group Services</span>
-</div>
-</div>
+**Instant setup** Subject matter experts can stand up their own workflows in minutes. Connect real case data from existing systems, describe the outcome you want, and let Interloom orchestrate both human experts and AI agents across the process. From zero to production in days, not months.
 
-<div class="testimonial">
-<div class="testimonial-portrait"></div>
-<blockquote>"We went from 12-minute average handling time to 90 seconds. The ROI was obvious within the first month."</blockquote>
-<div class="testimonial-author">
-<span class="name">Michael Weber</span>
-<span class="title">Claims Director, Zurich Insurance</span>
-</div>
-</div>
+**For Enterprise** Every action, decision, and override is logged in a full audit trail. Role-based access controls ensure the right people see the right data — and nothing more. Whether you're responding to an internal review or a regulatory audit, the evidence is already there.
 
-<div class="testimonial">
-<div class="testimonial-portrait"></div>
-<blockquote>"Unlike other vendors, Interloom didn't disappear after deployment. They're continuously improving our systems."</blockquote>
-<div class="testimonial-author">
-<span class="name">Anna Schmidt</span>
-<span class="title">VP Digital Transformation, Comdirect</span>
-</div>
-</div>
-
-<div class="testimonial">
-<div class="testimonial-portrait"></div>
-<blockquote>"The integration was seamless. Our legacy systems now talk to each other without the manual data entry that used to consume half our day."</blockquote>
-<div class="testimonial-author">
-<span class="name">Thomas Richter</span>
-<span class="title">IT Director, BMW Group</span>
-</div>
-</div>
-
-</div>
-
-</section>
-
-<section class="stories">
-
-<div class="story">
-<div class="story-content">
-
-### The problem with off-the-shelf
-
-Most automation tools force you into rigid workflows designed for someone else's business. You end up adapting your processes to fit the software, instead of the other way around.
-
-<a href="#contact" class="story-link">See what makes us different →</a>
-
-</div>
-<div class="story-visual">
-<img src="{{ '/images/screenshot-square-1.png' | url }}" alt="Platform screenshot">
-</div>
-</div>
-
-<div class="story">
-<div class="story-content">
-
-### Built around your reality
-
-We start by understanding how your team actually works — the workarounds, the edge cases, the tribal knowledge that keeps things running. Then we build automation that fits.
-
-<a href="#contact" class="story-link">Learn about our process →</a>
-
-</div>
-<div class="story-visual">
-<img src="{{ '/images/screenshot-square-2.png' | url }}" alt="Platform screenshot">
-</div>
-</div>
-
-<div class="story">
-<div class="story-content">
-
-### Continuously improving
-
-Your business changes. Your automation should too. We monitor, optimize, and evolve your systems as your needs grow — no more shelfware.
-
-<a href="#contact" class="story-link">Explore ongoing support →</a>
-
-</div>
-<div class="story-visual">
-<img src="{{ '/images/screenshot-square-3.png' | url }}" alt="Platform screenshot">
-</div>
-</div>
-
-</section>
-
-<section class="security-badges">
-<p>Enterprise ready</p>
-<div class="badge-list">
-<div class="badge">SOC 2 Type II</div>
-<div class="badge">GDPR Compliant</div>
-<div class="badge">ISO 27001</div>
-<div class="badge">SSO & SAML</div>
-</div>
-</section>
+---
 
 <section class="cta" id="contact">
 <div class="cta-inner">
 
-## See how it would work for you
+Every week your team spends on manual processes is a week your competitors might not. Start deploying production workflows with a forward-deployed Interloom engineer.
 
-We'll walk through your specific workflows and show you what's possible.
-
-<a href="mailto:hello@interloom.io" class="btn">Get a workflow assessment</a>
+<a href="mailto:hello@interloom.io" class="btn">Book a demo</a> <a href="mailto:hello@interloom.io" class="btn">Join the waitlist</a>
 
 </div>
 </section>

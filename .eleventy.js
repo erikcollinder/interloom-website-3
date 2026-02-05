@@ -1,6 +1,5 @@
 module.exports = function(eleventyConfig) {
-  // Copy static assets
-  eleventyConfig.addPassthroughCopy("src/css");
+  // Copy static assets (CSS handled by Tailwind CLI)
   eleventyConfig.addPassthroughCopy("src/images");
 
   // Date formatting filter
@@ -24,15 +23,6 @@ module.exports = function(eleventyConfig) {
   // Collection for release notes
   eleventyConfig.addCollection("releases", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/releases/*.md")
-      .filter(item => !item.inputPath.includes("index.md"))
-      .sort((a, b) => {
-        return b.date - a.date;
-      });
-  });
-
-  // Collection for pitches
-  eleventyConfig.addCollection("pitches", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/pitches/*.md")
       .filter(item => !item.inputPath.includes("index.md"))
       .sort((a, b) => {
         return b.date - a.date;
