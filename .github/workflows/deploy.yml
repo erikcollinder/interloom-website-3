@@ -29,6 +29,7 @@ jobs:
       - run: npm run build
         env:
           ELEVENTY_ENV: production
+          PATH_PREFIX: /interloom-marketing-website/
 
       - uses: actions/upload-pages-artifact@v3
         with:

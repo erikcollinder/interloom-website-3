@@ -55,9 +55,10 @@ module.exports = function(eleventyConfig) {
     htmlTemplateEngine: "njk"
   };
 
-  // Only add pathPrefix for production builds (GitHub Pages)
-  if (process.env.ELEVENTY_ENV === "production") {
-    config.pathPrefix = "/interloom-marketing-website/";
+  // Only add pathPrefix when explicitly set (e.g. GitHub Pages).
+  // Vercel and other root-domain hosts should leave PATH_PREFIX unset.
+  if (process.env.PATH_PREFIX) {
+    config.pathPrefix = process.env.PATH_PREFIX;
   }
 
   return config;
