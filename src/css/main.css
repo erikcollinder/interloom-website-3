@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-@source "../../src/**/*.njk";
-@source "../../src/**/*.md";
+@source "../**/*.njk";
+@source "../**/*.md";
 
 @theme {
   /* =================================================================
@@ -170,7 +170,7 @@
 
   .prose strong {
     color: var(--color-fg-1);
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .prose ul,
@@ -232,7 +232,7 @@
   }
 
   .prose th {
-    font-weight: 600;
+    font-weight: 500;
     color: var(--color-fg-1);
     background-color: var(--color-surface-3);
   }

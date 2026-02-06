@@ -6,20 +6,20 @@ title: The AI-Native Back Office
 <section class="py-16 md:py-24 px-4">
 <div class="mx-auto max-w-2xl">
 
-# The AI Native Back Office
-<p class="text-lg text-fg-3 mb-8">Orchestration for Complex Domains</p>
+<h1 class="text-4xl md:text-5xl font-normal tracking-tight">The AI Native Back Office</h1>
 
-Deploy production AI workflows in natural language — designed by the people who know the work, powered by a context layer that learns as it runs.
+
+<p class="text-xl md:text-2xl text-fg-2 leading-snug tracking-tight"><span class="text-fg-3">Workflow Orchestration for Complex Domains.</span> Deploy production AI workflows in natural language. Designed by the people who know the work, powered by a context layer that learns as it runs.</p>
 
 <div class="flex gap-3 mt-8">
-<a href="#contact" class="inline-block bg-fg-1 text-surface-1 px-5 py-2.5 rounded font-medium no-underline hover:opacity-85 transition-opacity">Book a demo</a>
-<a href="#contact" class="inline-block bg-fg-1 text-surface-1 px-5 py-2.5 rounded font-medium no-underline hover:opacity-85 transition-opacity">Join Waitlist</a>
+<a href="#contact" class="inline-flex items-center h-[32px] bg-fg-1 text-surface-1 px-3 rounded font-medium no-underline hover:opacity-85 transition-opacity">Book a demo</a>
+<a href="#contact" class="inline-flex items-center h-[32px] border border-line text-fg-2 px-3 rounded font-medium no-underline hover:bg-surface-3 transition-colors">Join Waitlist</a>
 </div>
 
 </div>
 </section>
 
-<section class="py-12 px-4 border-t border-line-faint">
+<section class="py-12 px-4">
 <div class="mx-auto max-w-2xl prose">
 
 Software may have eaten parts of the world, but in the industries that keep it running — insurance, logistics, real estate management, construction, manufacturing — digitalisation remains superficial. The raw capability of AI is soaring, yet it's almost nowhere to be found in production workflows.
@@ -29,16 +29,16 @@ Software may have eaten parts of the world, but in the industries that keep it r
 </div>
 </section>
 
-<section class="py-12 px-4 bg-surface-3/50">
+<section class="py-12 px-4">
 <div class="mx-auto max-w-2xl">
-<blockquote class="border-l-3 border-line pl-6 italic text-fg-2">
-<p>"It's about bringing our knowledge and expertise together with data and information to make sure we can take the best risk based decision. <strong>Interloom's solution didn't just meet the challenge, it helped us think through, more strongly, the art of the possible.</strong>"</p>
+<blockquote class="border-l-3 border-line pl-6 text-xl md:text-2xl font-serif text-fg-3">
+<p>"It's about bringing our knowledge and expertise together with data and information to make sure we can take the best risk based decision. <span class="text-fg-1">Interloom's solution didn't just meet the challenge, it helped us think through, more strongly, the art of the possible.</span>"</p>
 </blockquote>
 <p class="mt-4 text-sm text-fg-3">— Penny Seach, Group Chief Underwriting Officer, Zurich Insurance Group</p>
 </div>
 </section>
 
-<section class="py-12 px-4 border-t border-line-faint">
+<section class="py-12 px-4">
 <div class="mx-auto max-w-2xl prose">
 
 ## Workflows That Learn
@@ -54,12 +54,12 @@ The Context Layer is a corporate knowledge base, structured as human-readable ar
 
 <section class="py-8 px-4">
 <div class="mx-auto max-w-3xl">
-<img src="{{ '/images/screenshot1.png' | url }}" alt="Interloom platform screenshot" class="w-full rounded-lg shadow-lg">
+<img src="{{ '/images/screenshot1.png' | url }}" alt="Interloom platform screenshot" class="w-full rounded-lg">
 <p class="mt-4 text-sm text-fg-3 text-center italic">Design workflows that read from and write back to your organisation's knowledge layer. Every case processed makes the next one smarter.</p>
 </div>
 </section>
 
-<section class="py-12 px-4 border-t border-line-faint">
+<section class="py-12 px-4">
 <div class="mx-auto max-w-2xl prose">
 
 **Simplicity** Traditional workflow tools force you to think like an engineer — mapping every branch, coding every integration, maintaining every edge case. Interloom flips this. You describe your process in natural language: what comes in, what should happen, when to escalate, what good looks like. The system handles the execution logic.
@@ -73,14 +73,14 @@ The Context Layer is a corporate knowledge base, structured as human-readable ar
 </div>
 </section>
 
-<section class="py-16 px-4 bg-surface-1" id="contact">
+<section class="py-16 px-4" id="contact">
 <div class="mx-auto max-w-2xl text-center">
 
 <p class="text-lg mb-8">Every week your team spends on manual processes is a week your competitors might not. Start deploying production workflows with a forward-deployed Interloom engineer.</p>
 
 <div class="flex justify-center gap-3">
-<a href="mailto:hello@interloom.io" class="inline-block bg-fg-1 text-surface-1 px-5 py-2.5 rounded font-medium no-underline hover:opacity-85 transition-opacity">Book a demo</a>
-<a href="mailto:hello@interloom.io" class="inline-block bg-fg-1 text-surface-1 px-5 py-2.5 rounded font-medium no-underline hover:opacity-85 transition-opacity">Join the waitlist</a>
+<a href="mailto:hello@interloom.io" class="inline-flex items-center h-[32px] bg-fg-1 text-surface-1 px-3 rounded font-medium no-underline hover:opacity-85 transition-opacity">Book a demo</a>
+<a href="mailto:hello@interloom.io" class="inline-flex items-center h-[32px] border border-line text-fg-2 px-3 rounded font-medium no-underline hover:bg-surface-3 transition-colors">Join the waitlist</a>
 </div>
 
 </div>
