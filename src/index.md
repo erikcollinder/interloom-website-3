@@ -3,30 +3,45 @@ layout: base.njk
 title: The AI-Native Back Office
 ---
 
-<section class="hero">
+<section class="py-16 md:py-24 px-4">
+<div class="mx-auto max-w-2xl">
 
 # The AI Native Back Office
-<p class="subtitle">Orchestration for Complex Domains</p>
+<p class="text-lg text-fg-3 mb-8">Orchestration for Complex Domains</p>
 
 Deploy production AI workflows in natural language — designed by the people who know the work, powered by a context layer that learns as it runs.
 
-<a href="#contact" class="btn">Book a demo</a> <a href="#contact" class="btn">Join Waitlist</a>
+<div class="flex gap-3 mt-8">
+<a href="#contact" class="inline-block bg-fg-1 text-surface-1 px-5 py-2.5 rounded font-medium no-underline hover:opacity-85 transition-opacity">Book a demo</a>
+<a href="#contact" class="inline-block bg-fg-1 text-surface-1 px-5 py-2.5 rounded font-medium no-underline hover:opacity-85 transition-opacity">Join Waitlist</a>
+</div>
 
+</div>
 </section>
+
+<section class="py-12 px-4 border-t border-line-faint">
+<div class="mx-auto max-w-2xl prose">
 
 Software may have eaten parts of the world, but in the industries that keep it running — insurance, logistics, real estate management, construction, manufacturing — digitalisation remains superficial. The raw capability of AI is soaring, yet it's almost nowhere to be found in production workflows.
 
 **The core issue is a lack of unified context.** Over 70% of knowledge work happens in departmental silos, scattered across tools, documents, emails, and meetings. Tasks get done, but knowledge is lost — undocumented, unstructured, impossible to re-use. In a world with only human expertise this slows you down. **In a world with abundant artificial intelligence it's a critical point of failure.**
 
----
+</div>
+</section>
 
-> "It's about bringing our knowledge and expertise together with data and information to make sure we can take the best risk based decision. **Interloom's solution didn't just meet the challenge, it helped us think through, more strongly, the art of the possible.**"
+<section class="py-12 px-4 bg-surface-3/50">
+<div class="mx-auto max-w-2xl">
+<blockquote class="border-l-3 border-line pl-6 italic text-fg-2">
+<p>"It's about bringing our knowledge and expertise together with data and information to make sure we can take the best risk based decision. <strong>Interloom's solution didn't just meet the challenge, it helped us think through, more strongly, the art of the possible.</strong>"</p>
+</blockquote>
+<p class="mt-4 text-sm text-fg-3">— Penny Seach, Group Chief Underwriting Officer, Zurich Insurance Group</p>
+</div>
+</section>
 
-— Penny Seach, Group Chief Underwriting Officer, Zurich Insurance Group
+<section class="py-12 px-4 border-t border-line-faint">
+<div class="mx-auto max-w-2xl prose">
 
----
-
-# Workflows That Learn
+## Workflows That Learn
 
 **Workflows**
 Workflows are authored in natural language — with code where needed — and execute complex, multi-step processes. Each workflow can combine LLM-based steps (extraction, classification, summarisation) with deterministic ones (validation, formatting, lookups), using each where it's strongest.
@@ -34,9 +49,18 @@ Workflows are authored in natural language — with code where needed — and ex
 **Context Layer**
 The Context Layer is a corporate knowledge base, structured as human-readable articles similar to a wiki. It provides grounding context to every workflow at execution time. It's built incrementally as workflows process cases, or imported from existing sources — and it's fully portable, never locked in proprietary representations.
 
-<img src="{{ '/images/screenshot1.png' | url }}" alt="Interloom platform screenshot">
+</div>
+</section>
 
-*Design workflows that read from and write back to your organisation's knowledge layer. Every case processed makes the next one smarter.*
+<section class="py-8 px-4">
+<div class="mx-auto max-w-3xl">
+<img src="{{ '/images/screenshot1.png' | url }}" alt="Interloom platform screenshot" class="w-full rounded-lg shadow-lg">
+<p class="mt-4 text-sm text-fg-3 text-center italic">Design workflows that read from and write back to your organisation's knowledge layer. Every case processed makes the next one smarter.</p>
+</div>
+</section>
+
+<section class="py-12 px-4 border-t border-line-faint">
+<div class="mx-auto max-w-2xl prose">
 
 **Simplicity** Traditional workflow tools force you to think like an engineer — mapping every branch, coding every integration, maintaining every edge case. Interloom flips this. You describe your process in natural language: what comes in, what should happen, when to escalate, what good looks like. The system handles the execution logic.
 
@@ -46,14 +70,18 @@ The Context Layer is a corporate knowledge base, structured as human-readable ar
 
 **For Enterprise** Every action, decision, and override is logged in a full audit trail. Role-based access controls ensure the right people see the right data — and nothing more. Whether you're responding to an internal review or a regulatory audit, the evidence is already there.
 
----
+</div>
+</section>
 
-<section class="cta" id="contact">
-<div class="cta-inner">
+<section class="py-16 px-4 bg-surface-1" id="contact">
+<div class="mx-auto max-w-2xl text-center">
 
-Every week your team spends on manual processes is a week your competitors might not. Start deploying production workflows with a forward-deployed Interloom engineer.
+<p class="text-lg mb-8">Every week your team spends on manual processes is a week your competitors might not. Start deploying production workflows with a forward-deployed Interloom engineer.</p>
 
-<a href="mailto:hello@interloom.io" class="btn">Book a demo</a> <a href="mailto:hello@interloom.io" class="btn">Join the waitlist</a>
+<div class="flex justify-center gap-3">
+<a href="mailto:hello@interloom.io" class="inline-block bg-fg-1 text-surface-1 px-5 py-2.5 rounded font-medium no-underline hover:opacity-85 transition-opacity">Book a demo</a>
+<a href="mailto:hello@interloom.io" class="inline-block bg-fg-1 text-surface-1 px-5 py-2.5 rounded font-medium no-underline hover:opacity-85 transition-opacity">Join the waitlist</a>
+</div>
 
 </div>
 </section>

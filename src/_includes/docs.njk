@@ -1,16 +1,18 @@
 ---
 layout: base.njk
 ---
-<div class="docs-layout">
-  <aside class="docs-sidebar">
-    <nav class="docs-nav">
+<div class="grid grid-cols-1 md:grid-cols-[240px_1fr] min-h-[calc(100vh-200px)]">
+  <aside class="border-b md:border-b-0 md:border-r border-line p-4 md:p-6 md:sticky md:top-[50px] md:h-[calc(100vh-50px)] overflow-y-auto">
+    <nav>
       {%- for section in docsNav.sections %}
-      <div class="docs-nav-section">
-        <h4 class="docs-nav-section-title">{{ section.title }}</h4>
-        <ul class="docs-nav-list">
+      <div class="mb-6">
+        <h4 class="text-xs font-semibold uppercase tracking-wide text-fg-3 mb-2 px-2">{{ section.title }}</h4>
+        <ul class="list-none p-0 m-0">
           {%- for item in section.items %}
-          <li>
-            <a href="{{ item.url | url }}" {% if page.url == item.url %}class="active"{% endif %}>
+          <li class="m-0">
+            <a href="{{ item.url | url }}"
+               class="block py-1.5 px-2 text-sm rounded no-underline transition-colors
+                      {% if page.url == item.url %}bg-surface-3 text-fg-1 font-medium{% else %}text-fg-3 hover:text-fg-1 hover:bg-surface-3/50{% endif %}">
               {{ item.title }}
             </a>
           </li>
@@ -20,11 +22,11 @@ layout: base.njk
       {%- endfor %}
     </nav>
   </aside>
-  <article class="docs-content">
-    <header class="docs-header">
-      <h1>{{ title }}</h1>
+  <article class="p-6 md:p-8 max-w-3xl">
+    <header class="mb-8 pb-4 border-b border-line">
+      <h1 class="font-serif text-2xl font-normal mb-0">{{ title }}</h1>
     </header>
-    <div class="docs-body">
+    <div class="prose">
       {{ content | safe }}
     </div>
   </article>

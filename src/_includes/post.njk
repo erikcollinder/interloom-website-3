@@ -1,12 +1,14 @@
 ---
 layout: base.njk
 ---
-<article class="post">
-  <header class="post-header">
-    <h1>{{ title }}</h1>
-    <time>{{ date | dateFormat }}</time>
-  </header>
-  <div class="post-content">
-    {{ content | safe }}
+<article class="py-12 px-4">
+  <div class="mx-auto max-w-2xl">
+    <header class="mb-8 pb-4 border-b border-line">
+      <h1 class="font-serif text-2xl font-normal mb-2">{{ title }}</h1>
+      <time class="text-sm text-fg-3">{{ date | dateFormat }}</time>
+    </header>
+    <div class="prose">
+      {{ content | safe }}
+    </div>
   </div>
 </article>

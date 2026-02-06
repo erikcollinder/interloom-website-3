@@ -11,66 +11,58 @@
   <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
 </head>
-<body>
-  <header class="sticky top-0 z-100 border-b border-line-faint bg-surface-2">
-    <div class="header-grid">
-      <div class="gutter gutter-left"></div>
-      <nav class="flex items-center justify-between px-4 py-3">
-        <a href="{{ '/' | url }}" class="flex items-center gap-2 no-underline">
-          <img src="{{ '/images/interloom-wordmark.svg' | url }}" alt="Interloom" class="h-5 w-auto">
-        </a>
-        <div class="flex gap-6 text-sm">
-          <a href="{{ '/blog/' | url }}" class="text-fg-3 no-underline hover:text-fg-1">Blog</a>
-          <a href="{{ '/docs/' | url }}" class="text-fg-3 no-underline hover:text-fg-1">Documentation</a>
-          <a href="{{ '/releases/' | url }}" class="text-fg-3 no-underline hover:text-fg-1">Release Notes</a>
-          <a href="#contact" class="text-tint-blue no-underline hover:text-tint-blue/80">Get in Touch</a>
-        </div>
-      </nav>
-      <div class="gutter gutter-right"></div>
-    </div>
+<body class="bg-surface-2 text-fg-1 font-sans text-[15px] leading-relaxed antialiased">
+  <header class="sticky top-0 z-50 border-b border-line-faint bg-surface-2">
+    <nav class="mx-auto max-w-5xl flex items-center justify-between px-4 py-3">
+      <a href="{{ '/' | url }}" class="no-underline">
+        <img src="{{ '/images/interloom-wordmark.svg' | url }}" alt="Interloom" class="h-5 w-auto">
+      </a>
+      <div class="flex gap-6 text-sm">
+        <a href="{{ '/blog/' | url }}" class="text-fg-3 no-underline hover:text-fg-1 transition-colors">Blog</a>
+        <a href="{{ '/docs/' | url }}" class="text-fg-3 no-underline hover:text-fg-1 transition-colors">Documentation</a>
+        <a href="{{ '/releases/' | url }}" class="text-fg-3 no-underline hover:text-fg-1 transition-colors">Release Notes</a>
+        <a href="#contact" class="text-tint-blue no-underline hover:text-tint-blue/70 transition-colors">Get in Touch</a>
+      </div>
+    </nav>
   </header>
 
-  <div class="page-grid">
-    <div class="gutter gutter-left"></div>
-    <main class="min-h-[calc(100vh-200px)]">
-      {{ content | safe }}
-    </main>
-    <div class="gutter gutter-right"></div>
-  </div>
+  <main class="min-h-[calc(100vh-200px)]">
+    {{ content | safe }}
+  </main>
 
-  <footer class="border-t border-line-faint px-4 pt-12 pb-6 text-sm text-fg-3">
-    <div class="mx-auto max-w-[1000px]">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <h4>Product</h4>
-          <a href="#">Features</a>
-          <a href="#">Integrations</a>
-          <a href="#">Pricing</a>
-          <a href="#">Changelog</a>
+  <footer class="border-t border-line-faint mt-16">
+    <div class="mx-auto max-w-5xl px-4 py-12">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+        <div class="flex flex-col gap-2">
+          <h4 class="text-sm font-medium text-fg-1 mb-2">Product</h4>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Features</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Integrations</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Pricing</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Changelog</a>
         </div>
-        <div class="footer-col">
-          <h4>Company</h4>
-          <a href="#">About</a>
-          <a href="#">Blog</a>
-          <a href="#">Careers</a>
-          <a href="#">Contact</a>
+        <div class="flex flex-col gap-2">
+          <h4 class="text-sm font-medium text-fg-1 mb-2">Company</h4>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">About</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Blog</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Careers</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Contact</a>
         </div>
-        <div class="footer-col">
-          <h4>Resources</h4>
-          <a href="#">Documentation</a>
-          <a href="#">Case Studies</a>
-          <a href="#">API Reference</a>
-          <a href="#">Support</a>
+        <div class="flex flex-col gap-2">
+          <h4 class="text-sm font-medium text-fg-1 mb-2">Resources</h4>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Documentation</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Case Studies</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">API Reference</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Support</a>
         </div>
-        <div class="footer-col">
-          <h4>Legal</h4>
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-          <a href="#">Security</a>
-          <a href="#">GDPR</a>
+        <div class="flex flex-col gap-2">
+          <h4 class="text-sm font-medium text-fg-1 mb-2">Legal</h4>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Privacy</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Terms</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Security</a>
+          <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">GDPR</a>
         </div>
       </div>
-      <p class="footer-copyright">&copy; 2025 Interloom. All rights reserved.</p>
+      <p class="pt-6 border-t border-line-faint text-sm text-fg-3">&copy; 2025 Interloom. All rights reserved.</p>
     </div>
   </footer>
 </body>
