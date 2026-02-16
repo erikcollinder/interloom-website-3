@@ -71,10 +71,10 @@
 }
 
 /* =================================================================
-   Dark mode — activated via class on html/body or media query
+   Dark mode — system preference (only when no explicit class set)
    ================================================================= */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not(.light) {
     color-scheme: dark;
 
     --surface-1: var(--color-gray-800);
@@ -96,7 +96,7 @@
   }
 }
 
-/* Also support explicit .dark class */
+/* Explicit dark class override */
 :root.dark {
   color-scheme: dark;
 

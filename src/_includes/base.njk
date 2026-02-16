@@ -92,6 +92,7 @@
 
       function apply(dark) {
         root.classList.toggle('dark', dark);
+        root.classList.toggle('light', !dark);
         label.textContent = dark ? 'Light' : 'Dark';
       }
 
